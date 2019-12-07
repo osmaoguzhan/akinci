@@ -1,5 +1,7 @@
 import nmap
-class portScanner():
+
+
+class portScanner:
 
     def __init__(self, ip, port):
         self.portScan = nmap.PortScanner()
@@ -19,3 +21,5 @@ class portScanner():
                 lport = self.portScan[host][proto].keys()
                 for port in lport:
                     print('port : %s\tstate : %s' % (port, self.portScan[host][proto][port]['state']))
+
+portScanner('192.168.1.0/24','22-45')
