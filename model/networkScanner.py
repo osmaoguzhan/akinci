@@ -1,9 +1,10 @@
-import os
-
-a=os.popen("arp -a | awk '{print $2}'").read()
-"""for ip in a:
-    print(a)
-    if "(" and ")" in ip:
-        str(ip).replace("(","")
-        str(ip).replace(")","")"""
-print(a)
+from netdiscover import *
+disc = Discover()
+print("=========================")
+print("Scanning local network")
+print("=========================")
+print("Host IP: 192.168.1.41")
+print("[+] [IP RANGE]")
+list=disc.scan(ip_range="192.168.1.0/16")
+for i in list:
+    print(i)

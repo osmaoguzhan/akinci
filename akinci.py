@@ -1,4 +1,3 @@
-import argparse
 from model import portScanner
 
 def createBanner():
