@@ -22,4 +22,4 @@ class portScanner:
                 for port in lport:
                     print('port : %s\tstate : %s' % (port, self.portScan[host][proto][port]['state']))
 
-portScanner('192.168.1.0/24','22-45')
+#portScanner('10.0.2.15','1-2')
