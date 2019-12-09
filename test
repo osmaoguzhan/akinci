@@ -1,0 +1,927 @@
+     1     tcp         tcpmux                   TCP Port Service Multiplexer \[rfc-1078\]
+     1     udp         SocketsdesTroie          \[trojan\] Sockets des Troie
+     1     udp         tcpmux                   TCP Port Service Multiplexer
+     2     tcp         compressnet              Management Utility
+     2     tcp         Death                    \[trojan\] Death
+     2     udp         compressnet              Management Utility
+     3     tcp         compressnet              Compression Process
+     3     udp         compressnet              Compression Process
+     5     tcp         rje                      Remote Job Entry
+     5     udp         rje                      Remote Job Entry
+     7     tcp         echo                     Echo
+     7     udp         echo                     Echo
+     9     tcp         discard                  Discard
+     9     udp         discard                  Discard
+    11     tcp         systat                   Active Users
+    11     udp         systat                   Active Users
+    13     tcp         daytime                  Daytime
+    13     udp         daytime                  Daytime
+    15     tcp         netstat                  Netstat
+    15     tcp         B2                       \[trojan\] B2
+    17     tcp         qo                       TDQuote of the Day
+    17     udp         qo                       TDQuote of the Day
+    18     tcp         msp                      Message Send Protocol
+    18     udp         msp                      Message Send Protocol
+    19     tcp         chargen                  Character Generator
+    19     udp         chargen                  Character Generator
+    20     tcp         ftp-data                 File Transfer \[Default Data\]
+    20     udp         ftp-data                 File Transfer \[Default Data\]
+    20     tcp         SennaSpyFTPserver        \[trojan\] Senna Spy FTP server
+    21     tcp         ftp                      File Transfer \[Control\]
+    21     udp         ftp                      File Transfer \[Control\]
+    21     tcp         BackConstruction         \[trojan\] Back Construction
+    21     tcp         BladeRunner              \[trojan\] BladeRunner
+    21     tcp         CattivikFTPServer        \[trojan\] Cattivik FTP Server
+    21     tcp         CCInvader                \[trojan\] CC Invader
+    21     tcp         DarkFTP                  \[trojan\] Dark FTP
+    21     tcp         DolyTrojan               \[trojan\] Doly Trojan
+    21     tcp         Fore                     \[trojan\] Fore
+    21     tcp         FreddyK                  \[trojan\] FreddyK
+    21     tcp         InvisibleFTP             \[trojan\] Invisible FTP
+    21     tcp         Juggernaut42             \[trojan\] Juggernaut 42
+    21     tcp         Larva                    \[trojan\] Larva
+    21     tcp         MotIvFTP                 \[trojan\] MotIv FTP
+    21     tcp         NetAdministrator         \[trojan\] Net Administrator
+    21     tcp         Ramen                    \[trojan\] Ramen
+    21     tcp         RTB666                   \[trojan\] RTB 666
+    21     tcp         SennaSpyFTPserver        \[trojan\] Senna Spy FTP server
+    21     tcp         Traitor21                \[trojan\] Traitor 21
+    21     tcp         \[trojan\]TheFlu           \[trojan\] The Flu
+    21     tcp         WebEx                    \[trojan\] WebEx
+    21     tcp         WinCrash                 \[trojan\] WinCrash
+    21     tcp         AudioGalaxy              AudioGalaxy file sharing app
+    22     tcp         Adoresshd                \[trojan\] Adore sshd
+    22     tcp         Shaft                    \[trojan\] Shaft
+    22     tcp         ssh                      SSH Remote Login Protocol
+    22     udp         pcanywhere               PCAnywhere (deprecated)
+    22     udp         ssh                      SSH Remote Login Protocol
+    23     tcp         telnet                   Telnet
+    23     udp         telnet                   Telnet
+    23     tcp         ADMworm                  \[trojan\] ADM worm
+    23     tcp         FireHacKer               \[trojan\] Fire HacKer
+    23     tcp         MyVeryOwntrojan          \[trojan\] My Very Own trojan
+    23     tcp         RTB666                   \[trojan\] RTB 666
+    23     tcp         TelnetPro                \[trojan\] Telnet Pro
+    23     tcp         TinyTelnetServer         \[trojan\] Tiny Telnet Server - TTS
+    23     tcp         TruvaAtl                 \[trojan\] Truva Atl
+    24     tcp         BO2KControlPort          \[trojan\] Back Orifice 2000 (BO2K) Control Port
+    24     tcp         priv-mail                any private mail system
+    24     udp         priv-mail                any private mail system
+    25     tcp         smtp                     Simple Mail Transfer
+    25     udp         smtp                     Simple Mail Transfer
+    25     tcp         Ajan                     \[trojan\] Ajan
+    25     tcp         Antigen                  \[trojan\] Antigen
+    25     tcp         Barok                    \[trojan\] Barok
+    25     tcp         BSE                      \[trojan\] BSE
+    25     tcp         EmailPasswordSender      \[trojan\] Email Password Sender - EPS
+    25     tcp         EPSII                    \[trojan\] EPS II
+    25     tcp         Gip                      \[trojan\] Gip
+    25     tcp         Gris                     \[trojan\] Gris
+    25     tcp         Happy99                  \[trojan\] Happy99
+    25     tcp         Hpteammail               \[trojan\] Hpteam mail
+    25     tcp         Hybris                   \[trojan\] Hybris
+    25     tcp         Iloveyou                 \[trojan\] I love you
+    25     tcp         Kuang2                   \[trojan\] Kuang2
+    25     tcp         MagicHorse               \[trojan\] Magic Horse
+    25     tcp         MBTMailBombingTrojan     \[trojan\] MBT (Mail Bombing Trojan)
+    25     tcp         MBT                      \[trojan\] MBT (Mail Bombing Trojan)
+    25     tcp         MoscowEmailtrojan        \[trojan\] Moscow Email trojan
+    25     tcp         Naebi                    \[trojan\] Naebi
+    25     tcp         NewAptworm               \[trojan\] NewApt worm
+    25     tcp         ProMailtrojan            \[trojan\] ProMail trojan
+    25     tcp         Shtirlitz                \[trojan\] Shtirlitz
+    25     tcp         Stealth                  \[trojan\] Stealth
+    25     tcp         Stukach                  \[trojan\] Stukach
+    25     tcp         Tapiras                  \[trojan\] Tapiras
+    25     tcp         Terminator               \[trojan\] Terminator
+    25     tcp         WinPC                    \[trojan\] WinPC
+    25     tcp         WinSpy                   \[trojan\] WinSpy
+    26     tcp         altavista-fw97           AltaVista Firewall97
+    27     tcp         altavista-fw97           AltaVista Firewall97
+    27     tcp         nsw-fe                   NSW User System FE
+    27     udp         nsw-fe                   NSW User System FE
+    28     tcp         altavista-fw97           AltaVista Firewall97
+    29     tcp         altavista-fw97           AltaVista Firewall97
+    29     tcp         msg-icp                  MSG ICP
+    29     udp         msg-icp                  MSG ICP
+    30     tcp         Agent40421               \[trojan\] Agent 40421
+    31     tcp         msg-auth                 MSG Authentication
+    31     udp         msg-auth                 MSG Authentication
+    31     tcp         Agent31                  \[trojan\] Agent 31
+    31     tcp         Agent31                  \[trojan\] Agent 31
+    31     tcp         HackersParadise          \[trojan\] Hackers Paradise
+    31     tcp         MastersParadise          \[trojan\] Masters Paradise
+    33     tcp         dsp                      Display Support Protocol
+    33     udp         dsp                      Display Support Protocol
+    35     tcp         priv-print               any private printer server
+    35     udp         priv-print               any private printer server
+    37     tcp         time                     Time
+    37     udp         time                     Time
+    38     tcp         rap                      Route Access Protocol
+    38     udp         rap                      Route Access Protocol
+    39     tcp         rlp                      Resource Location Protocol
+    39     udp         rlp                      Resource Location Protocol
+    39     tcp         SubSARI                  \[trojan\] SubSARI
+    41     tcp         graphics                 Graphics
+    41     udp         graphics                 Graphics
+    41     tcp         DeepThroat               \[trojan\] DeepThroat
+    41     tcp         DeepThroat               \[trojan\] Deep Throat
+    41     tcp         Foreplay                 \[trojan\] Foreplay
+    42     tcp         name                     Host Name Server
+    42     udp         name                     Host Name Server
+    43     tcp         whois                    nicname
+    43     udp         whois                    nicname
+    44     tcp         mpm-flags                MPM FLAGS Protocol
+    44     udp         mpm-flags                MPM FLAGS Protocol
+    44     tcp         Arctic                   \[trojan\] Arctic
+    45     tcp         mpm                      Message Processing Module \[recv\]
+    45     udp         mpm                      Message Processing Module \[recv\]
+    46     tcp         mpm-snd                  MPM \[default send\]
+    46     udp         mpm-snd                  MPM \[default send\]
+    47     tcp         ni-ftp                   NI FTP
+    47     udp         ni-ftp                   NI FTP
+    48     tcp         audi                     TDDigital Audit Daemon
+    48     udp         audi                     TDDigital Audit Daemon
+    48     tcp         DRAT                     \[trojan\] DRAT
+    48     tcp         DRAT                     \[trojan\] DRAT
+    49     tcp         tacacs                   Login Host Protocol (TACACS)
+    49     udp         tacacs                   Login Host Protocol (TACACS)
+    50     tcp         re-mail-ck               Remote Mail Checking Protocol
+    50     udp         re-mail-ck               Remote Mail Checking Protocol
+    50     tcp         DRAT                     \[trojan\] DRAT
+    50     tcp         DRAT                     \[trojan\] DRAT
+    51     tcp         la-maint                 IMP Logical Address Maintenance
+    51     udp         la-maint                 IMP Logical Address Maintenance
+    52     tcp         xns-time                 XNS Time Protocol
+    52     udp         xns-time                 XNS Time Protocol
+    53     tcp         domain                   Domain Name Server
+    53     udp         domain                   Domain Name Server
+    53     tcp         ADMworm                  \[trojan\] ADM worm
+    53     tcp         Lion                     \[trojan\] Lion
+    54     tcp         xns-ch                   XNS Clearinghouse
+    54     udp         xns-ch                   XNS Clearinghouse
+    55     tcp         isi-gl                   ISI Graphics Language
+    55     udp         isi-gl                   ISI Graphics Language
+    56     tcp         xns-auth                 XNS Authentication
+    56     udp         xns-auth                 XNS Authentication
+    57     tcp         priv-term                any private terminal access
+    57     udp         priv-term                any private terminal access
+    57     tcp         mtp                      Mail Transfer Protocol
+    58     tcp         xns-mail                 XNS Mail
+    58     udp         xns-mail                 XNS Mail
+    58     tcp         DMSetup                  \[trojan\] DMSetup
+    59     tcp         priv-file                any private file service
+    59     udp         priv-file                any private file service
+    59     tcp         DMSetup                  \[trojan\] DMSetup
+    59     tcp         DMSetup                  \[trojan\] DMSetup
+    61     tcp         ni-mail                  NI MAIL
+    61     udp         ni-mail                  NI MAIL
+    62     tcp         acas                     ACA Services
+    62     udp         acas                     ACA Services
+    63     tcp         whois++                  whois++
+    63     udp         whois++                  whois++
+    63     tcp         via-ftp                  VIA Systems - FTP & whois++
+    63     udp         via-ftp                  VIA Systems - FTP & whois++
+    64     tcp         covia                    Communications Integrator (CI)
+    64     udp         covia                    Communications Integrator (CI)
+    65     tcp         tacacs-ds                TACACS-Database Service
+    65     udp         tacacs-ds                TACACS-Database Service
+    66     tcp         sql*net                  Oracle SQL*NET
+    66     udp         sql*net                  Oracle SQL*NET
+    67     tcp         bootps                   Bootstrap Protocol Server
+    67     udp         bootps                   Bootstrap Protocol Server
+    68     tcp         bootpc                   Bootstrap Protocol Client
+    68     udp         bootpc                   Bootstrap Protocol Client
+    69     tcp         tftp                     Trivial File Transfer
+    69     udp         tftp                     Trivial File Transfer
+    69     tcp         BackGate                 \[trojan\] BackGate
+    70     tcp         gopher                   Gopher
+    70     udp         gopher                   Gopher
+    71     tcp         netrjs-1                 Remote Job Service
+    71     udp         netrjs-1                 Remote Job Service
+    72     tcp         netrjs-2                 Remote Job Service
+    72     udp         netrjs-2                 Remote Job Service
+    73     tcp         netrjs-3                 Remote Job Service
+    73     udp         netrjs-3                 Remote Job Service
+    74     tcp         netrjs-4                 Remote Job Service
+    74     udp         netrjs-4                 Remote Job Service
+    75     tcp         priv-dial                any private dial out service
+    75     udp         priv-dial                any private dial out service
+    76     tcp         deos                     Distributed External Object Store
+    76     udp         deos                     Distributed External Object Store
+    77     tcp         priv-rje                 any private RJE service  netrjs
+    77     udp         priv-rje                 any private RJE service  netjrs
+    78     tcp         vettcp                   vettcp
+    78     udp         vettcp                   vettcp
+    79     tcp         finger                   Finger
+    79     udp         finger                   Finger
+    79     tcp         BO2KDataPort             \[trojan\] Back Orifice 2000 (BO2K) Data Port
+    79     tcp         CDK                      \[trojan\] CDK
+    79     tcp         Firehotcker              \[trojan\] Firehotcker
+    80     tcp         http                     World Wide Web HTTP
+    80     udp         http                     World Wide Web HTTP
+    80     tcp         711trojan                \[trojan\] 711 trojan (Seven Eleven)
+    80     tcp         AckCmd                   \[trojan\] AckCmd
+    80     tcp         AckCmd                   \[trojan\] AckCmd
+    80     tcp         BackEnd                  \[trojan\] Back End
+    80     tcp         BO2000Plug-Ins           \[trojan\] Back Orifice 2000 Plug-Ins
+    80     tcp         Cafeini                  \[trojan\] Cafeini
+    80     tcp         CGIBackdoor              \[trojan\] CGI Backdoor
+    80     tcp         Executor                 \[trojan\] Executor
+    80     tcp         GodMessage4Creator       \[trojan\] God Message 4 Creator
+    80     tcp         GodMessage               \[trojan\] God Message
+    80     tcp         Hooker                   \[trojan\] Hooker
+    80     tcp         IISworm                  \[trojan\] IISworm
+    80     tcp         MTX                      \[trojan\] MTX
+    80     tcp         NCX                      \[trojan\] NCX
+    80     tcp         Noob                     \[trojan\] Noob
+    80     tcp         Ramen                    \[trojan\] Ramen
+    80     tcp         ReverseWWWTunnel         \[trojan\] Reverse WWW Tunnel Backdoor
+    80     tcp         RingZero                 \[trojan\] RingZero
+    80     tcp         RTB666                   \[trojan\] RTB 666
+    80     tcp         Seeker                   \[trojan\] Seeker
+    80     tcp         WANRemote                \[trojan\] WAN Remote
+    80     tcp         WebDownloader            \[trojan\] WebDownloader
+    80     tcp         WebServerCT              \[trojan\] Web Server CT
+    81     tcp         hosts2-ns                HOSTS2 Name Server
+    81     udp         hosts2-ns                HOSTS2 Name Server
+    81     tcp         RemoConChubo             \[trojan\] RemoConChubo
+    81     tcp         RemoConChubo             \[trojan\] RemoConChubo
+    82     tcp         xfer                     XFER Utility
+    82     udp         xfer                     XFER Utility
+    83     tcp         mit-ml-dev               MIT ML Device
+    83     udp         mit-ml-dev               MIT ML Device
+    84     tcp         ctf                      Common Trace Facility
+    84     udp         ctf                      Common Trace Facility
+    85     tcp         mit-ml-dev               MIT ML Device
+    85     udp         mit-ml-dev               MIT ML Device
+    86     tcp         mfcobol                  Micro Focus Cobol
+    86     udp         mfcobol                  Micro Focus Cobol
+    87     tcp         priv-term-l              any private terminal link  ttylink
+    88     tcp         kerberos                 Kerberos
+    88     udp         kerberos                 Kerberos
+    89     tcp         su-mit-tg                SU MIT Telnet Gateway
+    89     udp         su-mit-tg                SU MIT Telnet Gateway
+    90     tcp         dnsix                    DNSIX Securit Attribute Token Map
+    90     udp         dnsix                    DNSIX Securit Attribute Token Map
+    91     tcp         mit-dov                  MIT Dover Spooler
+    91     udp         mit-dov                  MIT Dover Spooler
+    92     tcp         npp                      Network Printing Protocol
+    92     udp         npp                      Network Printing Protocol
+    93     tcp         dcp                      Device Control Protocol
+    93     udp         dcp                      Device Control Protocol
+    94     tcp         objcall                  Tivoli Object Dispatcher
+    94     udp         objcall                  Tivoli Object Dispatcher
+    95     tcp         supdup                   BSD supdupd(8)
+    95     udp         supdup                   BSD supdupd(8)
+    96     tcp         dixie                    DIXIE Protocol Specification
+    96     udp         dixie                    DIXIE Protocol Specification
+    97     tcp         swift-rvf                Swift Remote Virtural File Protocol
+    97     udp         swift-rvf                Swift Remote Virtural File Protocol
+    98     tcp         linuxconf                linuxconf
+    98     tcp         tacnews                  TAC News
+    98     udp         tacnews                  TAC News
+    99     tcp         metagram                 Metagram Relay
+    99     udp         metagram                 Metagram Relay
+    99     tcp         HiddenPort               \[trojan\] Hidden Port
+    99     tcp         Hidden                   \[trojan\] Hidden
+    99     tcp         Mandragore               \[trojan\] Mandragore
+    99     tcp         NCX                      \[trojan\] NCX
+   100     tcp         newacct                  \[unauthorized use\]
+   101     tcp         hostname                 NIC Host Name Server
+   101     udp         hostname                 NIC Host Name Server
+   102     tcp         iso-tsap                 ISO Transport Service Access Point
+   102     udp         iso-tsap                 ISO Transport Service Access Point
+   103     tcp         gppitnp                  Genesis Point-to-Point Trans Net
+   103     udp         gppitnp                  Genesis Point-to-Point Trans Net
+   104     tcp         acr-nema                 ACR-NEMA Digital Imag. & Comm. 300
+   104     udp         acr-nema                 ACR-NEMA Digital Imag. & Comm. 300
+   105     tcp         csnet-ns                 Mailbox Name Nameserver
+   105     udp         csnet-ns                 Mailbox Name Nameserver
+   106     tcp         3com-tsmux               3COM-TSMUX
+   106     udp         3com-tsmux               3COM-TSMUX
+   106     tcp         pop3pw                   Eudora compatible PW changer
+   107     tcp         rtelnet                  Remote Telnet
+   107     udp         rtelnet                  Remote Telnet Service
+   108     tcp         snagas                   SNA Gateway Access Server
+   108     udp         snagas                   SNA Gateway Access Server
+   109     tcp         pop2                     PostOffice V.2
+   109     udp         pop2                     PostOffice V.2
+   110     tcp         pop3                     PostOffice V.3
+   110     udp         pop3                     PostOffice V.3
+   110     tcp         ProMailtrojan            \[trojan\] ProMail trojan
+   110     tcp         ProMailtrojan            \[trojan\] ProMail trojan
+   111     tcp         sunrpc                   portmapper  rpcbind
+   111     udp         sunrpc                   portmapper  rpcbind
+   112     tcp         mcidas                   McIDAS Data Transmission Protocol
+   112     udp         mcidas                   McIDAS Data Transmission Protocol
+   113     tcp         auth                     ident Authentication Service
+   113     udp         auth                     ident Authentication Service
+   113     tcp         InvisibleIdentdDaemon    \[trojan\] Invisible Identd Daemon
+   113     tcp         InvisibleIdentdDeamon    \[trojan\] Invisible Identd Deamon
+   113     tcp         Kazimas                  \[trojan\] Kazimas
+   114     tcp         audionews                Audio News Multicast
+   114     udp         audionews                Audio News Multicast
+   115     tcp         sftp                     Simple File Transfer Protocol
+   115     udp         sftp                     Simple File Transfer Protocol
+   116     tcp         ansanotify               ANSA REX Notify
+   116     udp         ansanotify               ANSA REX Notify
+   117     tcp         uucp-path                UUCP Path Service
+   117     udp         uucp-path                UUCP Path Service
+   118     tcp         sqlserv                  SQL Services
+   118     udp         sqlserv                  SQL Services
+   119     tcp         nntp                     Network News Transfer Protocol
+   119     udp         nntp                     Network News Transfer Protocol
+   119     tcp         Happy99                  \[trojan\] Happy99 (a.k.a. Ska trojan)
+   120     tcp         cfdptkt                  CFDPTKT
+   120     udp         cfdptkt                  CFDPTKT
+   121     tcp         erpc                     Encore Expedited Remote Pro.Call
+   121     udp         erpc                     Encore Expedited Remote Pro.Call
+   121     tcp         AttackBot                \[trojan\] Attack Bot
+   121     tcp         GodMessage               \[trojan\] God Message
+   121     tcp         JammerKillah             \[trojan\] JammerKillah
+   121     tcp         JammerKillah             \[trojan\] Jammer Killah
+   122     tcp         smakynet                 SMAKYNET
+   122     udp         smakynet                 SMAKYNET
+   123     tcp         NetController            \[trojan\] Net Controller
+   123     tcp         NetController            \[trojan\] Net Controller
+   123     tcp         ntp                      Network Time Protocol
+   123     udp         ntp                      Network Time Protocol
+   124     tcp         ansatrader               ANSA REX Trader
+   124     udp         ansatrader               ANSA REX Trader
+   125     tcp         locus-map                Locus PC-Interface Net Map Ser
+   125     udp         locus-map                Locus PC-Interface Net Map Ser
+   126     tcp         nxedit                   NXEdit
+   126     udp         nxedit                   NXEdit
+   126     tcp         unitary                  Unisys Unitary Login
+   126     udp         unitary                  Unisys Unitary Login
+   127     tcp         locus-con                Locus PC-Interface Conn Server
+   127     udp         locus-con                Locus PC-Interface Conn Server
+   128     tcp         gss-xlicen               GSS X License Verification
+   128     udp         gss-xlicen               GSS X License Verification
+   129     tcp         pwdgen                   Password Generator Protocol
+   129     udp         pwdgen                   Password Generator Protocol
+   130     tcp         cisco-fna                cisco FNATIVE
+   130     udp         cisco-fna                cisco FNATIVE
+   131     tcp         cisco-tna                cisco TNATIVE
+   131     udp         cisco-tna                cisco TNATIVE
+   132     tcp         cisco-sys                cisco SYSMAINT
+   132     udp         cisco-sys                cisco SYSMAINT
+   133     tcp         statsrv                  Statistics Service
+   133     udp         statsrv                  Statistics Service
+   133     tcp         Farnaz                   \[trojan\] Farnaz
+   134     tcp         ingres-net               INGRES-NET Service
+   134     udp         ingres-net               INGRES-NET Service
+   135     tcp         epmap                    DCE endpoint resolution
+   135     udp         epmap                    DCE endpoint resolution
+   135     tcp         loc-srv                  NCS Location Service
+   135     udp         loc-srv                  NCS Location Service
+   136     tcp         profile                  PROFILE Naming System
+   136     udp         profile                  PROFILE Naming System
+   137     tcp         netbios-ns               NETBIOS Name Service
+   137     udp         netbios-ns               NETBIOS Name Service
+   137     tcp         Chode                    \[trojan\] Chode
+   137     tcp         Qaz                      \[trojan\] Qaz
+   137     udp         Msinit                   \[trojan\] Msinit
+   138     tcp         netbios-dgm              NETBIOS Datagram Service
+   138     udp         netbios-dgm              NETBIOS Datagram Service
+   138     tcp         Chode                    \[trojan\] Chode
+   139     tcp         netbios-ssn              NETBIOS Session Service
+   139     udp         netbios-ssn              NETBIOS Session Service
+   139     tcp         Chode                    \[trojan\] Chode
+   139     tcp         GodMessageworm           \[trojan\] God Message worm
+   139     tcp         Msinit                   \[trojan\] Msinit
+   139     tcp         Netlog                   \[trojan\] Netlog
+   139     tcp         Network                  \[trojan\] Network
+   139     tcp         Qaz                      \[trojan\] Qaz
+   139     tcp         Sadmind                  \[trojan\] Sadmind
+   139     tcp         SMBRelay                 \[trojan\] SMB Relay
+   140     tcp         emfis-data               EMFIS Data Service
+   140     udp         emfis-data               EMFIS Data Service
+   141     tcp         emfis-cntl               EMFIS Control Service
+   141     udp         emfis-cntl               EMFIS Control Service
+   142     tcp         bl-idm                   Britton-Lee IDM
+   142     udp         bl-idm                   Britton-Lee IDM
+   142     tcp         NetTaxi                  \[trojan\] NetTaxi
+   143     tcp         imap                     Internet Message Access Protocol
+   143     udp         imap                     Internet Message Access Protocol
+   144     tcp         uma                      Universal Management Architecture
+   144     udp         uma                      Universal Management Architecture
+   144     udp         news                     NewS window system
+   144     tcp         news                     NewS window system
+   145     tcp         uaac                     UAAC Protocol
+   145     udp         uaac                     UAAC Protocol
+   146     tcp         iso-tp0                  ISO-IP0
+   146     udp         iso-tp0                  ISO-IP0
+   146     tcp         Infector                 \[trojan\] Infector
+   146     udp         Infector                 \[trojan\] Infector
+   147     tcp         iso-ip                   ISO-IP
+   147     udp         iso-ip                   ISO-IP
+   148     tcp         jargon                   Jargon
+   148     udp         jargon                   Jargon
+   148     tcp         cronus                   CRONUS-SUPPORT
+   148     udp         cronus                   CRONUS-SUPPORT
+   149     tcp         aed-512                  AED 512 Emulation Service
+   149     udp         aed-512                  AED 512 Emulation Service
+   150     tcp         sql-net                  SQL-NET
+   150     udp         sql-net                  SQL-NET
+   151     tcp         hems                     HEMS
+   151     udp         hems                     HEMS
+   152     tcp         bftp                     Background File Transfer Program
+   152     udp         bftp                     Background File Transfer Program
+   153     tcp         sgmp                     SGMP
+   153     udp         sgmp                     SGMP
+   154     tcp         netsc-prod               NETSC
+   154     udp         netsc-prod               NETSC
+   155     tcp         netsc-dev                NETSC
+   155     udp         netsc-dev                NETSC
+   156     tcp         sqlsrv                   SQL Service
+   156     udp         sqlsrv                   SQL Service
+   157     tcp         knet-cmp                 KNET VM Command Message Protocol
+   157     udp         knet-cmp                 KNET VM Command Message Protocol
+   158     tcp         pcmail-srv               PCMail Server
+   158     udp         pcmail-srv               PCMail Server
+   159     tcp         nss-routing              NSS-Routing
+   159     udp         nss-routing              NSS-Routing
+   160     tcp         sgmp-traps               SGMP-TRAPS
+   160     udp         sgmp-traps               SGMP-TRAPS
+   161     tcp         snmp                     SNMP
+   161     udp         snmp                     SNMP
+   162     tcp         snmptrap                 SNMPTRAP
+   162     udp         snmptrap                 SNMPTRAP
+   163     tcp         cmip-man                 CMIP TCP Manager
+   163     udp         cmip-man                 CMIP TCP Manager
+   164     tcp         cmip-agent               CMIP TCP Agent
+   164     udp         smip-agent               CMIP TCP Agent
+   165     tcp         xns-courier              Xerox
+   165     udp         xns-courier              Xerox
+   166     tcp         s-net                    Sirius Systems
+   166     udp         s-net                    Sirius Systems
+   166     tcp         NokNok                   \[trojan\] NokNok
+   167     tcp         namp                     NAMP
+   167     udp         namp                     NAMP
+   168     tcp         rsvd                     RSVD
+   168     udp         rsvd                     RSVD
+   169     tcp         send                     SEND
+   169     udp         send                     SEND
+   170     tcp         print-srv                Network PostScript
+   170     udp         print-srv                Network PostScript
+   170     tcp         A-trojan                 \[trojan\] A-trojan
+   171     tcp         multiplex                Network Innovations Multiplex
+   171     udp         multiplex                Network Innovations Multiplex
+   172     tcp         cl-1                     Network Innovations CL 1
+   172     udp         cl-1                     Network Innovations CL 1
+   173     tcp         xyplex-mux               Xyplex
+   173     udp         xyplex-mux               Xyplex
+   174     tcp         mailq                    MAILQ
+   174     udp         mailq                    MAILQ
+   175     tcp         vmnet                    VMNET
+   175     udp         vmnet                    VMNET
+   176     tcp         genrad-mux               GENRAD-MUX
+   176     udp         genrad-mux               GENRAD-MUX
+   177     tcp         xdmcp                    X Display Manager Control Protocol
+   177     udp         xdmcp                    X Display Manager Control Protocol
+   178     tcp         nextstep                 NextStep Window Server
+   178     udp         nextstep                 NextStep Window Server
+   179     tcp         bgp                      Border Gateway Protocol
+   179     udp         bgp                      Border Gateway Protocol
+   180     tcp         ris                      Intergraph
+   180     udp         ris                      Intergraph
+   181     tcp         unify                    Unify
+   181     udp         unify                    Unify
+   182     tcp         audit                    Unisys Audit SITP
+   182     udp         audit                    Unisys Audit SITP
+   183     tcp         ocbinder                 OCBinder
+   183     udp         ocbinder                 OCBinder
+   184     tcp         ocserver                 OCServer
+   184     udp         ocserver                 OCServer
+   185     tcp         remote-kis               Remote-KIS
+   185     udp         remote-kis               Remote-KIS
+   186     tcp         kis                      KIS Protocol
+   186     udp         kis                      KIS Protocol
+   187     tcp         aci                      Application Communication Interface
+   187     udp         aci                      Application Communication Interface
+   188     tcp         mumps                    Plus Five's MUMPS
+   188     udp         mumps                    Plus Five's MUMPS
+   189     tcp         qft                      Queued File Transport
+   189     udp         qft                      Queued File Transport
+   190     tcp         gacp                     Gateway Access Control Protocol
+   190     udp         gacp                     Gateway Access Control Protocol
+   191     tcp         prospero                 Prospero Directory Service
+   191     udp         prospero                 Prospero Directory Service
+   192     tcp         osu-nms                  OSU Network Monitoring System
+   192     udp         osu-nms                  OSU Network Monitoring System
+   193     tcp         srmp                     Spider Remote Monitoring Protocol
+   193     udp         srmp                     Spider Remote Monitoring Protocol
+   194     tcp         irc                      Internet Relay Chat Protocol
+   194     udp         irc                      Internet Relay Chat Protocol
+   195     tcp         dn6-nlm-aud              DNSIX Network Level Module Audit
+   195     udp         dn6-nlm-aud              DNSIX Network Level Module Audit
+   196     tcp         dn6-smm-red              DNSIX Session Mgt Module Audit Redir
+   196     udp         dn6-smm-red              DNSIX Session Mgt Module Audit Redir
+   197     tcp         dls                      Directory Location Service
+   197     udp         dls                      Directory Location Service
+   198     tcp         dls-mon                  Directory Location Service Monitor
+   198     udp         dls-mon                  Directory Location Service Monitor
+   199     tcp         smux                     SMUX
+   199     udp         smux                     SMUX
+   200     tcp         src                      IBM System Resource Controller
+   200     udp         src                      IBM System Resource Controller
+   201     tcp         at-rtmp                  AppleTalk Routing Maintenance
+   201     udp         at-rtmp                  AppleTalk Routing Maintenance
+   202     tcp         at-nbp                   AppleTalk Name Binding
+   202     udp         at-nbp                   AppleTalk Name Binding
+   203     tcp         at-3                     AppleTalk Unused
+   203     udp         at-3                     AppleTalk Unused
+   204     tcp         at-echo                  AppleTalk Echo
+   204     udp         at-echo                  AppleTalk Echo
+   205     tcp         at-5                     AppleTalk Unused
+   205     udp         at-5                     AppleTalk Unused
+   206     tcp         at-zis                   AppleTalk Zone Information
+   206     udp         at-zis                   AppleTalk Zone Information
+   207     tcp         at-7                     AppleTalk Unused
+   207     udp         at-7                     AppleTalk Unused
+   208     tcp         at-8                     AppleTalk Unused
+   208     udp         at-8                     AppleTalk Unused
+   209     tcp         qmtp                     The Quick Mail Transfer Protocol
+   209     udp         qmtp                     The Quick Mail Transfer Protocol
+   209     tcp         tam                      Trivial Authenticated Mail Protocol
+   209     udp         tam                      Trivial Authenticated Mail Protocol
+   210     tcp         z39.50                   ANSI Z39.50
+   210     udp         z39.50                   ANSI Z39.50
+   211     tcp         914c                     Texas Instruments 914C/G Terminal
+   211     udp         914c                     Texas Instruments 914C/G Terminal
+   212     tcp         anet                     ATEXSSTR
+   212     udp         anet                     ATEXSSTR
+   213     tcp         ipx                      IPX
+   213     udp         ipx                      IPX
+   214     tcp         vmpwscs                  VM PWSCS
+   214     udp         vmpwscs                  VM PWSCS
+   215     tcp         softpc                   Insignia Solutions
+   215     udp         softpc                   Insignia Solutions
+   216     tcp         CAIlic                   Computer Associates Int'l License Server
+   216     udp         CAIlic                   Computer Associates Int'l License Server
+   216     tcp         atls                     Access Technology License Server
+   216     udp         atls                     Access Technology License Server
+   217     tcp         dbase                    dBASE Unix
+   217     udp         dbase                    dBASE Unix
+   218     tcp         mpp                      Netix Message Posting Protocol
+   218     udp         mpp                      Netix Message Posting Protocol
+   219     tcp         uarps                    Unisys ARPs
+   219     udp         uarps                    Unisys ARPs
+   220     tcp         imap3                    Interactive Mail Access Protocol v3
+   220     udp         imap3                    Interactive Mail Access Protocol v3
+   221     tcp         fln-spx                  Berkeley rlogind with SPX auth
+   221     udp         fln-spx                  Berkeley rlogind with SPX auth
+   222     tcp         rsh-spx                  Berkeley rshd with SPX auth
+   222     udp         rsh-spx                  Berkeley rshd with SPX auth
+   223     tcp         cdc                      Certificate Distribution Center
+   223     udp         cdc                      Certificate Distribution Center
+   224     tcp         masqdialer               masqdialer
+   224     udp         masqdialer               masqdialer
+   242     tcp         direct                   Direct
+   242     udp         direct                   Direct
+   243     tcp         sur-meas                 Survey Measurement
+   243     udp         sur-meas                 Survey Measurement
+   244     tcp         inbusiness               inbusiness
+   244     udp         inbusiness               inbusiness
+   244     tcp         dayna                    Dayna
+   244     udp         dayna                    Dayna
+   245     tcp         link                     LINK
+   245     udp         link                     LINK
+   246     tcp         dsp3270                  Display Systems Protocol
+   246     udp         dsp3270                  Display Systems Protocol
+   247     tcp         subntbcst_tftp           SUBNTBCST_TFTP
+   247     udp         subntbcst_tftp           SUBNTBCST_TFTP
+   248     tcp         bhfhs                    bhfhs
+   248     udp         bhfhs                    bhfhs
+   256     tcp         rap                      RAP
+   256     udp         rap                      RAP
+   256     tcp         fw1-sync                 Checkpoint Firewall-1 state table sync
+   257     tcp         set                      Secure Electronic Transaction
+   257     udp         set                      Secure Electronic Transaction
+   257     tcp         fw1-log                  Check Point FW-1/VPN-1 log transfer
+   258     tcp         yak-chat                 Yak Winsock Personal Chat
+   258     udp         yak-chat                 Yak Winsock Personal Chat
+   258     tcp         fw1-mgmt                 Check Point FW-1/VPN-1 management
+   259     tcp         esro-gen                 Efficient Short Remote Operations
+   259     udp         esro-gen                 Efficient Short Remote Operations
+   259     tcp         fw1-clntauth             Check Point FW-1/VPN-1 client auth
+   259     udp         fw1-rdp                  Check Point FW-1/VPN-1 key negotiations over RDP
+   260     tcp         openport                 Openport
+   260     udp         openport                 Openport
+   260     udp         fw1-snmp                 Check Point FW-1/VPN-1 SNMP agent
+   261     tcp         nsiiops                  IIOP Name Service over TLS SSL
+   261     udp         nsiiops                  IIOP Name Service over TLS SSL
+   261     tcp         fw1-mgmt                 Check Point FW-1/VPN-1 Management
+   261     tcp         fw-snauth                Check Point FW-1/VPN-1 session auth
+   262     tcp         arcisdms                 Arcisdms
+   262     udp         arcisdms                 Arcisdms
+   263     tcp         hdap                     HDAP
+   263     udp         hdap                     HDAP
+   264     tcp         bgmp                     Border Gateway Multicast Protocol
+   264     udp         bgmp                     Border Gateway Multicast Protocol
+   264     tcp         fw1-topo                 Check Point VPN-1 topology download
+   265     tcp         x-bone-ctl               X-Bone CTL
+   265     udp         x-bone-ctl               X-Bone CTL
+   265     tcp         fw1-key                  Check Point VPN-1 public key transfer protocol
+   266     tcp         sst                      SCSI on ST
+   266     udp         sst                      SCSI on ST
+   267     tcp         td-service               Tobit David Service Layer
+   267     udp         td-service               Tobit David Service Layer
+   268     tcp         td-replica               Tobit David Replica
+   268     udp         td-replica               Tobit David Replica
+   280     tcp         http-mgmt                http-mgmt
+   280     udp         http-mgmt                http-mgmt
+   281     tcp         personal-link            Personal Link
+   281     udp         personal-link            Personal Link
+   282     tcp         cableport-ax             Cable Port A X
+   282     udp         cableport-ax             Cable Port A X
+   283     tcp         rescap                   rescap
+   283     udp         rescap                   rescap
+   284     tcp         corerjd                  corerjd
+   284     udp         corerjd                  corerjd
+   286     tcp         fxp-1                    FXP-1
+   286     udp         fxp-1                    FXP-1
+   287     tcp         k-block                  K-BLOCK
+   287     udp         k-block                  K-BLOCK
+   308     tcp         novastorbakcup           Novastor Backup
+   308     udp         novastorbakcup           Novastor Backup
+   309     tcp         entrusttime              EntrustTime
+   309     udp         entrusttime              EntrustTime
+   310     tcp         bhmds                    bhmds
+   310     udp         bhmds                    bhmds
+   311     tcp         asip-webadmin            AppleShare IP WebAdmin
+   311     udp         asip-webadmin            AppleShare IP WebAdmin
+   312     tcp         vslmp                    VSLMP
+   312     udp         vslmp                    VSLMP
+   313     tcp         magenta-logic            Magenta Logic
+   313     udp         magenta-logic            Magenta Logic
+   314     tcp         opalis-robot             Opalis Robot
+   314     udp         opalis-robot             Opalis Robot
+   315     tcp         dpsi                     DPSI
+   315     udp         dpsi                     DPSI
+   316     tcp         decauth                  decAuth
+   316     udp         decauth                  decAuth
+   317     tcp         zannet                   Zannet
+   317     udp         zannet                   Zannet
+   318     tcp         pkix-timestamp           PKIX TimeStamp
+   318     udp         pkix-timestamp           PKIX TimeStamp
+   319     tcp         ptp-event                PTP Event
+   319     udp         ptp-event                PTP Event
+   320     tcp         ptp-general              PTP General
+   320     udp         ptp-general              PTP General
+   321     tcp         pip                      PIP
+   321     udp         pip                      PIP
+   322     tcp         rtsps                    RTSPS
+   322     udp         rtsps                    RTSPS
+   333     tcp         texar                    Texar Security Port
+   333     udp         texar                    Texar Security Port
+   334     tcp         Backage                  \[trojan\] Backage
+   344     tcp         pdap                     Prospero Data Access Protocol
+   344     udp         pdap                     Prospero Data Access Protocol
+   345     tcp         pawserv                  Perf Analysis Workbench
+   345     udp         pawserv                  Perf Analysis Workbench
+   346     tcp         zserv                    Zebra server
+   346     udp         zserv                    Zebra server
+   347     tcp         fatserv                  Fatmen Server
+   347     udp         fatserv                  Fatmen Server
+   348     tcp         csi-sgwp                 Cabletron Management Protocol
+   348     udp         csi-sgwp                 Cabletron Management Protocol
+   349     tcp         mftp                     mftp
+   349     udp         mftp                     mftp
+   350     tcp         matip-type-a             MATIP Type A
+   350     udp         matip-type-a             MATIP Type A
+   351     tcp         matip-type-b             MATIP Type B
+   351     udp         matip-type-b             MATIP Type B
+   351     tcp         bhoetty                  bhoetty
+   351     udp         bhoetty                  bhoetty
+   352     tcp         dtag-ste-sb              DTAG
+   352     udp         dtag-ste-sb              DTAG
+   352     udp         bhoedap4                 bhoedap4
+   352     tcp         bhoedap4                 bhoedap4
+   353     tcp         ndsauth                  NDSAUTH
+   353     udp         ndsauth                  NDSAUTH
+   354     tcp         bh611                    bh611
+   354     udp         bh611                    bh611
+   355     tcp         datex-asn                DATEX-ASN
+   355     udp         datex-asn                DATEX-ASN
+   356     tcp         cloanto-net-1            Cloanto Net 1
+   356     udp         cloanto-net-1            Cloanto Net 1
+   357     tcp         bhevent                  bhevent
+   357     udp         bhevent                  bhevent
+   358     tcp         shrinkwrap               Shrinkwrap
+   358     udp         shrinkwrap               Shrinkwrap
+   359     tcp         nsrmp                    Network Security Risk Management Protocol
+   359     udp         nsrmp                    Network Security Risk Management Protocol
+   359     tcp         tenebris_nts             Tenebris Network Trace Service
+   359     udp         tenebris_nts             Tenebris Network Trace Service
+   360     tcp         scoi2odialog             scoi2odialog
+   360     udp         scoi2odialog             scoi2odialog
+   361     tcp         semantix                 Semantix
+   361     udp         semantix                 Semantix
+   362     tcp         srssend                  SRS Send
+   362     udp         srssend                  SRS Send
+   363     tcp         rsvp_tunnel              RSVP Tunnel
+   363     udp         rsvp_tunnel              RSVP Tunnel
+   364     tcp         aurora-cmgr              Aurora CMGR
+   364     udp         aurora-cmgr              Aurora CMGR
+   365     tcp         dtk                      DTK
+   365     udp         dtk                      DTK
+   366     tcp         odmr                     ODMR
+   366     udp         odmr                     ODMR
+   367     tcp         mortgageware             MortgageWare
+   367     udp         mortgageware             MortgageWare
+   368     tcp         qbikgdp                  QbikGDP
+   368     udp         qbikgdp                  QbikGDP
+   369     tcp         rpc2portmap              rpc2portmap
+   369     udp         rpc2portmap              rpc2portmap
+   370     tcp         codaauth2                codaauth2
+   370     udp         codaauth2                codaauth2
+   371     tcp         clearcase                Clearcase
+   371     udp         clearcase                Clearcase
+   372     tcp         ulistproc                ListProcessor
+   372     udp         ulistproc                ListProcessor
+   373     tcp         legent-1                 Legent Corporation
+   373     udp         legent-1                 Legent Corporation
+   374     tcp         legent-2                 Legent Corporation
+   374     udp         legent-2                 Legent Corporation
+   375     tcp         hassle                   Hassle
+   375     udp         hassle                   Hassle
+   376     tcp         nip                      Amiga Envoy Network Inquiry Proto
+   376     udp         nip                      Amiga Envoy Network Inquiry Proto
+   377     tcp         tnETOS                   NEC Corporation
+   377     udp         tnETOS                   NEC Corporation
+   378     tcp         dsETOS                   NEC Corporation
+   378     udp         dsETOS                   NEC Corporation
+   379     tcp         is99c                    TIA EIA IS-99 modem client
+   379     udp         is99c                    TIA EIA IS-99 modem client
+   380     tcp         is99s                    TIA EIA IS-99 modem server
+   380     udp         is99s                    TIA EIA IS-99 modem server
+   381     tcp         hp-collector             hp performance data collector
+   381     udp         hp-collector             hp performance data collector
+   382     tcp         hp-managed-node          hp performance data managed node
+   382     udp         hp-managed-node          hp performance data managed node
+   383     tcp         hp-alarm-mgr             hp performance data alarm manager
+   383     udp         hp-alarm-mgr             hp performance data alarm manager
+   384     tcp         arns                     A Remote Network Server System
+   384     udp         arns                     A Remote Network Server System
+   385     tcp         ibm-app                  IBM Application
+   385     udp         ibm-app                  IBM Application
+   386     tcp         asa                      ASA Message Router Object Def.
+   386     udp         asa                      ASA Message Router Object Def.
+   387     tcp         aurp                     Appletalk Update-Based Routing Pro.
+   387     udp         aurp                     Appletalk Update-Based Routing Pro.
+   388     tcp         unidata-ldm              Unidata LDM
+   388     udp         unidata-ldm              Unidata LDM
+   389     tcp         ldap                     Lightweight Directory Access Protocol
+   389     udp         ldap                     Lightweight Directory Access Protocol
+   389     tcp         ms-ils                   Microsoft NetMeeting ILS server default port (for versions older than w2k)
+   390     tcp         uis                      UIS
+   390     udp         uis                      UIS
+   391     tcp         synotics-relay           SynOptics SNMP Relay Port
+   391     udp         synotics-relay           SynOptics SNMP Relay Port
+   392     tcp         synotics-broker          SynOptics Port Broker Port
+   392     udp         synotics-broker          SynOptics Port Broker Port
+   393     tcp         meta5                    Meta5
+   393     udp         meta5                    Meta5
+   393     tcp         dis                      Data Interpretation System
+   393     udp         dis                      Data Interpretation System
+   394     tcp         embl-ndt                 EMBL Nucleic Data Transfer
+   394     udp         embl-ndt                 EMBL Nucleic Data Transfer
+   395     tcp         netcp                    NETscout Control Protocol
+   395     udp         netcp                    NETscout Control Protocol
+   396     tcp         netware-ip               Novell Netware over IP
+   396     udp         netware-ip               Novell Netware over IP
+   397     tcp         mptn                     Multi Protocol Trans. Net.
+   397     udp         mptn                     Multi Protocol Trans. Net.
+   398     tcp         kryptolan                Kryptolan
+   398     udp         kryptolan                Kryptolan
+   399     tcp         iso-tsap-c2              ISO Transport Class 2 Non-Control over TCP
+   399     udp         iso-tsap-c2              ISO Transport Class 2 Non-Control over TCP
+   400     tcp         work-sol                 Workstation Solutions
+   400     udp         work-sol                 Workstation Solutions
+   401     tcp         ups                      Uninterruptible Power Supply
+   401     udp         ups                      Uninterruptible Power Supply
+   402     tcp         genie                    Genie Protocol
+   402     udp         genie                    Genie Protocol
+   403     tcp         decap                    decap
+   403     udp         decap                    decap
+   404     tcp         nced                     nced
+   404     udp         nced                     nced
+   405     tcp         ncld                     ncld
+   405     udp         ncld                     ncld
+   406     tcp         imsp                     Interactive Mail Support Protocol
+   406     udp         imsp                     Interactive Mail Support Protocol
+   407     tcp         timbuktu                 Timbuktu
+   407     udp         timbuktu                 Timbuktu
+   408     tcp         prm-sm                   Prospero Resource Manager Sys. Man.
+   408     udp         prm-sm                   Prospero Resource Manager Sys. Man.
+   409     tcp         prm-nm                   Prospero Resource Manager Node Man.
+   409     udp         prm-nm                   Prospero Resource Manager Node Man.
+   410     tcp         decladebug               DECLadebug Remote Debug Protocol
+   410     udp         decladebug               DECLadebug Remote Debug Protocol
+   411     tcp         rmt                      Remote MT Protocol
+   411     udp         rmt                      Remote MT Protocol
+   411     tcp         Backage                  \[trojan\] Backage
+   412     tcp         synoptics-trap           Trap Convention Port
+   412     udp         synoptics-trap           Trap Convention Port
+   413     tcp         smsp                     Storage Management Services Protocol
+   413     udp         smsp                     Storage Management Services Protocol
+   414     tcp         infoseek                 InfoSeek
+   414     udp         infoseek                 InfoSeek
+   415     tcp         bnet                     BNet
+   415     udp         bnet                     BNet
+   416     tcp         silverplatter            Silverplatter
+   416     udp         silverplatter            Silverplatter
+   417     tcp         onmux                    Onmux
+   417     udp         onmux                    Onmux
+   418     tcp         hyper-g                  Hyper-G
+   418     udp         hyper-g                  Hyper-G
+   419     tcp         ariel1                   Ariel
+   419     udp         ariel1                   Ariel
+   420     tcp         smpte                    SMPTE
+   420     udp         smpte                    SMPTE
+   420     tcp         Breach                   \[trojan\] Breach
+   420     tcp         Incognito                \[trojan\] Incognito
+   421     tcp         ariel2                   Ariel
+   421     udp         ariel2                   Ariel
+   421     tcp         TCPWrappers              \[trojan\] TCP Wrappers
+   421     tcp         TCPWrapperstrojan        \[trojan\] TCP Wrappers trojan
+   422     tcp         ariel3                   Ariel
+   422     udp         ariel3                   Ariel
+   423     tcp         opc-job-start            IBM Operations Planning and Control Start
+   423     udp         opc-job-start            IBM Operations Planning and Control Start
+   424     tcp         opc-job-track            IBM Operations Planning and Control Track
+   424     udp         opc-job-track            IBM Operations Planning and Control Track
+   425     tcp         icad-el                  ICAD
+   425     udp         icad-el                  ICAD
+   426     tcp         smartsdp                 smartsdp
+   426     udp         smartsdp                 smartsdp
+   427     tcp         svrloc                   Server Location
+   427     udp         svrloc                   Server Location
+   428     tcp         ocs_cmu                  OCS_CMU
+   428     udp         ocs_cmu                  OCS_CMU
+   429     tcp         ocs_amu                  OCS_AMU
+   429     udp         ocs_amu                  OCS_AMU
+   430     tcp         utmpsd                   UTMPSD
+   430     udp         utmpsd                   UTMPSD
+   431     tcp         utmpcd                   UTMPSD
+   431     udp         utmpcd                   UTMPSD
+   432     tcp         iasd                     IASD
+   432     udp         iasd                     IASD
+   433     tcp         nnsp                     Usenet Network News Transfer
+   433     udp         nnsp                     Usenet Network News Transfer
+   434     tcp         mobileip-agent           MobileIP-Agent
+   434     udp         mobileip-agent           MobileIP-Agent
+   435     tcp         mobilip-mn               MobileIP-MN
+   435     udp         mobilip-mn               MobileIP-MN
+   436     tcp         dna-cml                  DNA-CML
+   436     udp         dna-cml                  DNA-CML
+   437     tcp         comscm                   comscm
+   437     udp         comscm                   comscm
+   438     tcp         dsfgw                    dsfgw
+   438     udp         dsfgw                    dsfgw
+   439     tcp         dasp                     dasp
+   439     udp         dasp                     dasp
+   440     tcp         sgcp                     sgcp
+   440     udp         sgcp                     sgcp
+   441     tcp         decvms-sysmgt            decvms-sysmgt
+   441     udp         decvms-sysmgt            decvms-sysmgt
+   442     tcp         cvc_hostd                cvc_hostd
+   442     udp         cvc_hostd                cvc_hostd
+   443     tcp         https                    HTTP protocol over TLS/SSL
+   443     udp         https                    HTTP protocol over TLS/SSL
+   444     tcp         snpp                     Simple Network Paging Protocol
+   444     udp         snpp                     Simple Network Paging Protocol
+   445     tcp         microsoft-ds             Win2k+ Server Message Block
+   445     udp         microsoft-ds             Win2k+ Server Message Block
+   446     tcp         ddm-rdb                  DDM-RDB
+   446     udp         ddm-rdb                  DDM-RDB
+   447     tcp         ddm-dfm                  DDM-RFM
+   447     udp         ddm-dfm                  DDM-RFM
+   448     tcp         ddm-ssl                  DDM-SSL
+   448     udp         ddm-ssl                  DDM-SSL
+   449     tcp         as-servermap             AS Server Mapper
+   449     udp         as-servermap             AS Server Mapper
+   450     tcp         tserver                  Computer Supported Telecommunication Applications
+   450     udp         tserver                  Computer Supported Telecommunication Applications
+   451     tcp         sfs-smp-net              Cray Network Semaphore server
+   451     udp         sfs-smp-net              Cray Network Semaphore server
+   452     tcp         sfs-config               Cray SFS config server
+   452     udp         sfs-config               Cray SFS config server
+   453     tcp         creativeserver           CreativeServer
+   453     udp         creativeserver           CreativeServer
+   454     tcp         contentserver            ContentServer
+   454     udp         contentserver            ContentServer
+   455     tcp         creativepartnr           CreativePartnr
+   455     udp         creativepartnr           CreativePartnr
+   455     tcp         FatalConnections         \[trojan\] Fatal Connections
+   456     tcp         macon-tcp                macon-tcp
+   456     udp         macon-udp                macon-tcp
+   456     tcp         HackersParadise          \[trojan\] Hackers Paradise
+   457     tcp         scohelp                  scohelp
+   457     udp         scohelp                  scohelp
+   458     tcp         appleqtc                 apple quick time
+   458     udp         appleqtc                 apple quick time
+   459     tcp

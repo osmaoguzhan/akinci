@@ -21,5 +21,3 @@ class portScanner:
                 lport = self.portScan[host][proto].keys()
                 for port in lport:
                     print('port : %s\tstate : %s' % (port, self.portScan[host][proto][port]['state']))
-
-#portScanner('10.0.2.15','1-2')

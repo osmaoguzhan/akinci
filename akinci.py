@@ -5,9 +5,8 @@ import argparse
 def argParse():
     parser = argparse.ArgumentParser()
     parser.add_argument('-p', "--port", required=False,
-                        help="Specific Port Ex: < -p 80 >\nPort Range Ex: < -p 22-45 >\nFor All Ports Ex < -p -1 >\nAs a default option it'll scan all ports",
-                        default="-1",
-                        action="store")
+                        help="Specific Port Ex: <-p 80>\nPort Range Ex: <-p 22-45>\nFor All Ports Ex <-p -1>\nAs a default option it'll scan all ports",
+                        default="-1")
     args = parser.parse_args()
     networkScanner.networkScan(args.port)
 
