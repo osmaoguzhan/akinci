@@ -1,6 +1,7 @@
 import os
 import socket
 
+
 def defaultInfo():
     gw = os.popen("ip -4 route show default").read().split()
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

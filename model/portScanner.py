@@ -13,10 +13,8 @@ class portScanner:
 
     def scanPorts(self):
         for host in self.portScan.all_hosts():
-            print('Host : %s (%s)' % (host, self.portScan[host].hostname()))
             print('State : %s' % self.portScan[host].state())
             for proto in self.portScan[host].all_protocols():
-                print('----------')
                 print('Protocol : %s' % proto)
                 lport = self.portScan[host][proto].keys()
                 for port in lport:
