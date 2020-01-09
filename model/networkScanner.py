@@ -6,10 +6,10 @@ from mac_vendor_lookup import MacLookup
 class networkScan:
     def __init__(self, port):
         self.findBase()
-
         self.netScan(port)
 
     def netScan(self, port):
+        open = {}
         deviceScanner = Discover()
         print("=================================")
         print("Scanning local network and ports")
@@ -17,6 +17,7 @@ class networkScan:
         print("Host IP: " + str(self.hostIP))
         ipRange = self.ipBase+"/16"
         print("[+] IP RANGE [" + str(ipRange) + "]")
+        print("++++++++++++++++++++++++++++++++++++++")
         try:
             allDevices = deviceScanner.scan(ip_range=ipRange)
         except:
@@ -28,8 +29,11 @@ class networkScan:
                 print(MacLookup().lookup(device['mac'].decode('ASCII')))
             except:
                 print("Got error while getting vendor!")
-            portScanner.portScanner(device['ip'].decode('ASCII'),port)
+
+            portScanner.portScanner(device['ip'].decode('ASCII'), port)
+            print(portScanner.portScanner.open)
             print("++++++++++++++++++++++++++++++++++++++")
+
 
     def findBase(self):
         self.hostIP = getInfo.defaultInfo()

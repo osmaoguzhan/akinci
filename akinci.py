@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+    akinci - Automatic Network and Port Scanner
+    Copyright (C) 2019 Oguzhan Osma
+"""
+
+
 from model import networkScanner
 import argparse
 
