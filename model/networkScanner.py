@@ -20,19 +20,24 @@ class networkScan:
         print("++++++++++++++++++++++++++++++++++++++")
         try:
             allDevices = deviceScanner.scan(ip_range=ipRange)
+            for device in allDevices:
+                ipAddr = device['ip'].decode('ASCII')
+                try:
+                    mac = device['mac'].decode('ASCII')
+                    macVendor = MacLookup().lookup(device['mac'].decode('ASCII'))
+                except:
+                    macVendor = "None"
+
+                self.open = portScanner.portScanner(device['ip'].decode('ASCII'), port)
+                print("|===========================|========================|==============================|==============================|")
+                print("|                           |                        |                              |                              |")
+                print("|    " + str(ipAddr) + "    |    " + str(mac) + "    |    " + str(macVendor) + "    |    " + str(open.open) + "    |")
+                print("|                           |                        |                              |                              |")
+                print("|===========================|========================|==============================|==============================|")
+
         except:
             print("Got error while getting IP Addresses!")
-        for device in allDevices:
-            print(device['ip'].decode('ASCII'))
-            try:
-                print(device['mac'].decode('ASCII'))
-                print(MacLookup().lookup(device['mac'].decode('ASCII')))
-            except:
-                print("Got error while getting vendor!")
 
-            portScanner.portScanner(device['ip'].decode('ASCII'), port)
-            print(portScanner.portScanner.open)
-            print("++++++++++++++++++++++++++++++++++++++")
 
 
     def findBase(self):

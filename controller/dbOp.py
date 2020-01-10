@@ -11,7 +11,7 @@ class dbOperations():
             try:
                 connection = sqlite3.connect('info.db')
                 cursor = connection.cursor()
-                query = "Create table if not exists allInfo (mac varchar(32), ip varchar(32),ports TEXT, dateOfCon date)"
+                query = "Create table if not exists allInfo (mac varchar(32), ip varchar(32),vendor TEXT ,tcpPorts TEXT, udpPorts TEXT, dateOfCon date)"
                 cursor.execute(query)
                 connection.commit()
                 connection.close()
@@ -19,7 +19,7 @@ class dbOperations():
             except Error as e:
                 return -1
 
-    def insertinto(self, mac, ip, ports):
+    def insertinto(self, mac, ip, tcpPorts, udpPorts):
         if dbOperations.createTable(self) == 1 or dbOperations.createTable(self) == 0:
             connection = sqlite3.connect('info.db')
             cursor = connection.cursor()
@@ -67,10 +67,10 @@ class dbOperations():
         connection.commit()
         connection.close()
         return datas
-#dbOperations.insertinto(1,"c4:6e:1f:ec:19:95","192.168.1.1","80")
+dbOperations.insertinto(1,"c4:6e:1f:ec:19:95","192.168.1.1","80","")
 a=dbOperations.selectstar(4,"c4:6e:1f:ec:19:95")
 #a=dbOperations.getalldata(1)
-for data in a:
+"""for data in a:
     for datas in data:
-        print(datas)
+        print(datas)"""
 print(a)

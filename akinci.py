@@ -9,6 +9,9 @@
 from model import networkScanner
 import argparse
 
+__author__ = "Oguzhan Osma"
+__version__ = "1.0"
+
 
 def argParse():
     parser = argparse.ArgumentParser()
