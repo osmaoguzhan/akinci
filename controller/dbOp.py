@@ -128,7 +128,6 @@ def checkPorts(tcpPorts):
     ports = []
     protocol = []
     keywords = []
-    print(listTcp)
     for i in range(len(listTcp)):
         try:
             connection = sqlite3.connect('dbFiles/ports.db')
