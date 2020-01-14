@@ -17,7 +17,8 @@ __version__ = "v1.1"
 def argParse():
     parser = argparse.ArgumentParser()
     parser.add_argument('-p', "--port", required=False,
-                        help="Specific Port Ex: <-p 80>\nPort Range Ex: <-p 22-45>\nFor All Ports Ex <-p -1>\n")
+                        help="Specific Port Ex: <-p 80>\nPort Range Ex: <-p 22-45>\nFor All Ports Ex <-p all>\n"
+                             "For Common Ports Ex <-p common>\n")
     parser.add_argument('-d', "--db", required=False,
                         help="1: MAC\n 2:IP Address\n 3: Host IP\n4: All")
     args = parser.parse_args()
