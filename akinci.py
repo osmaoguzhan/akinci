@@ -11,7 +11,7 @@ import argparse
 from controller import dbOp as db
 
 __author__ = "Oguzhan Osma"
-__version__ = "v1.0"
+__version__ = "v1.1"
 
 
 def argParse():
