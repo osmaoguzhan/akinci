@@ -1,5 +1,5 @@
 # akinci
-The tool for getting ip addresses, mac addresses and opened ports on a network
+The tool for getting ip addresses, mac addresses and open ports on a network
 # Usage
 To Scan Ports:
 python3 akinci.py -p <port><br>
