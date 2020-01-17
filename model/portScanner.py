@@ -6,7 +6,7 @@ class portScanner:
         if port == "all":
             port = "1-65535"
         elif port == "common":
-            port = "1-1024"
+            port = "1-800"
         self.main(ip, port)
 
     def __dict__(self):
