@@ -24,7 +24,6 @@ def createTable():
                     ")"
             cursor.execute(query)
             connection.commit()
-            connection.close()
             control = 0
         except Error as e:
             control = -1
